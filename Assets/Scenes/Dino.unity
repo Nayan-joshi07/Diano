@@ -123,6 +123,65 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &361269378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 361269379}
+  - component: {fileID: 361269380}
+  m_Layer: 0
+  m_Name: Spawnner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &361269379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361269378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &361269380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361269378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3ea772e4a3845d5aee9e132701339a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - prefab: {fileID: 3984975541941493740, guid: 39e912d3dbd8b40828950437364e3de7, type: 3}
+    spawnChance: 0.2
+  - prefab: {fileID: 2423577806604331221, guid: 1d43ea6a1caec42769dfdce8f22f5afd, type: 3}
+    spawnChance: 0.18
+  - prefab: {fileID: 1234855802697758592, guid: 6174925b7b72a45e3b6f29b88568c874, type: 3}
+    spawnChance: 0.16
+  - prefab: {fileID: 1578907995052598792, guid: 670bbaf71347d44209e762826c5b0727, type: 3}
+    spawnChance: 0.14
+  - prefab: {fileID: 4461009606261831034, guid: cc61a1dff92d74fe4a0f0f8956f4bd49, type: 3}
+    spawnChance: 0.12
+  - prefab: {fileID: 8839019494681703425, guid: 66e50eaabe425480c9431a6ba11679d2, type: 3}
+    spawnChance: 0.1
+  - prefab: {fileID: 3235263985195036505, guid: 896d9926c739d4971aacfae6982b7468, type: 3}
+    spawnChance: 0.05
 --- !u!1 &650391611
 GameObject:
   m_ObjectHideFlags: 0
